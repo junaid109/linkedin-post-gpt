@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your next linkedin post using chatGPT
+          Generate your next awesome linkedin post using AI
         </h1>
         <p className="text-slate-500 mt-5">47,118 posts generated so far.</p>
         <div className="max-w-xl w-full">
