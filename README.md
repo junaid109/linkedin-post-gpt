@@ -1,6 +1,7 @@
 # LinkedIn Post GPT
 Generate interesting LinkedIn posts in seconds with AI!!
-[image](https://user-images.githubusercontent.com/8495748/224684055-bfc6e50e-5758-44bc-b75d-53435dacf346.png)
+
+![image](https://user-images.githubusercontent.com/8495748/224684154-1c5f5df9-e353-43f4-866d-a13c57158509.png)
 
 
 # LinkedIn Post Generator
