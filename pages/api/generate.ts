@@ -33,7 +33,7 @@ const handler = async (req: Request): Promise<Response> => {
   try {
     stream = await OpenAIStream(payload);
   } catch (err) {
-    return new Response(err.message, { status: 500 });
+    return new Response();
   }
 
   return new Response(stream);
