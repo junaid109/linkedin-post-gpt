@@ -63,12 +63,10 @@ export async function OpenAIStream(payload: OpenAIStreamPayload) {
             // maybe parse error
             controller.error(e);
           }
-        } else if (event.type === "reconnect") {
-          // https://beta.openai.com/docs/api-reference/completions/create#completions/create-stream
-          console.log("reconnect", event.data);
-          console.log("reconnect", event.error);
-          controller.error(new Error("reconnect"));
         }
+          // https://beta.openai.com/docs/api-reference/completions/create#completions/create-stream
+          controller.error(new Error("reconnect"));
+        
       }
 
       // stream response (SSE) from OpenAI may be fragmented into multiple chunks
